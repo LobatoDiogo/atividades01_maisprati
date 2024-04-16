@@ -100,3 +100,9 @@ const prompt = require('prompt-sync')();
 
 // console.log(`A região do produto é ${regiao}.`);
 
+//Exercício 10
+let num = parseInt(prompt("Digite um número: "));
+
+for (let index = 1; index <= 10; index += 1) {
+    console.log(num);
+}
