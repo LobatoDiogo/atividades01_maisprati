@@ -73,13 +73,30 @@ const prompt = require('prompt-sync')();
 // console.log(`Valor total da compra: R$ ${total}`);
 
 //Exercício 8
-let valor1 = parseInt(prompt("Informe o primeiro valor: "));
-let valor2 = parseInt(prompt("Informe o segundo valor: "));
+// let valor1 = parseInt(prompt("Informe o primeiro valor: "));
+// let valor2 = parseInt(prompt("Informe o segundo valor: "));
 
-if (valor1 === valor2) {
-    console.log("Valores não podem ser iguais.");
-} else if (valor1 > valor2) {
-    console.log(`${valor2}\n${valor1}`);
-} else {
-    console.log(`${valor1}\n${valor2}`);
-}
+// if (valor1 === valor2) {
+//     console.log("Valores não podem ser iguais.");
+// } else if (valor1 > valor2) {
+//     console.log(`${valor2}\n${valor1}`);
+// } else {
+//     console.log(`${valor1}\n${valor2}`);
+// }
+
+//Exercício 9
+// let codigo = parseInt(prompt("Informe o código de origem do produto: "));
+// let regiao;
+
+// regiao = codigo === 1 ? "Sul" :
+//     codigo === 2 ? "Norte" :
+//         codigo === 3 ? "Leste" :
+//             codigo === 4 ? "Oeste" :
+//                 (codigo === 5 || codigo === 6) ? "Nordeste" :
+//                     (codigo === 7 || codigo === 8 || codigo === 9) ? "Sudeste" :
+//                         (codigo >= 10 && codigo <= 20) ? "Centro-Oeste" :
+//                             (codigo >= 25 && codigo <= 50) ? "Nordeste" :
+//                                 "Produto importado";
+
+// console.log(`A região do produto é ${regiao}.`);
+
