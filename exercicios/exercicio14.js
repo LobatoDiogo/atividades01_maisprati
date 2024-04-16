@@ -15,4 +15,4 @@ while (numeros !== 0) {
 if (quantidade > 0) {
     let media = soma / quantidade;
     console.log(`Média aritmética dos números digitados: ${media}`);
-}
+};
